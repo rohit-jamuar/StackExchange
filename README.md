@@ -15,7 +15,7 @@ StackExchange is an uber-expansive data repository, maintaining all its data usi
 ###Schema: 
 `https://data.stackexchange.com/stackoverflow/query/new` (on RHS)
 
-###SQL Command used for gathering data:
+###SQL Query for gathering data:
 ```
 select a.Id as PostId, a.Tags as PostTags, d.Id as AskerId, d.DisplayName as AskerName,d.Reputation as AskerReputation,
 (select count(*) from Badges where UserId = a.OwnerUserId) as NumberOfAskerBadges,
