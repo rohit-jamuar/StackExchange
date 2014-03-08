@@ -38,7 +38,7 @@ Only 50000 rows of data can be fetched from dB at a go - need to manually accumu
 ##Data-Visualization:
 An excellent tool for building graphical representations : [Gephi](https://gephi.org/)
 
-For the tool to generate the graphical representation, it needs to be fed data in a certain format (.net).
+For tool to generate graphical representations, it needs data in a certain format (.net).
 
 ###How to generate your own representation?
 1. python code.py *list\_of\_all\_.csv\_files* (space separated, please!)
