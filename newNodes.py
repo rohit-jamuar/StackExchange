@@ -2,8 +2,8 @@ import csv
 from sys import argv
 
 nodes={}
-for j in argv[1:]:
-	with open('NewNodes.txt','w') as f:
+with open('NewNodes.txt','w') as f:
+	for j in argv[1:]:
 		with open(j, 'rb') as csvfile:
 			x = csv.reader(csvfile, delimiter=',', )
 			temp=[]
